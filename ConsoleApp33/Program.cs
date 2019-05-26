@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Diagnostics;
@@ -59,19 +60,10 @@ namespace ConsoleApp15
             }
         }
 
-        static void Main()
+        static string GetSimilarString(string input, StreamReader words)
         {
-            StreamReader f = new StreamReader("input.txt", Encoding.GetEncoding("windows-1251"));
-            
-            StreamWriter g = new StreamWriter("output.txt");
-            string s1 = f.ReadLine();//первая последовательность
-            string s2 = f.ReadToEnd();//вторая последовательность
-
-            string input = Console.ReadLine();
-
-
             string minDistWord = "ОШИБКА";
-            using (StreamReader words = new StreamReader("words.txt"))
+            using (words)
             {
                 var minDist = 0;
                 
@@ -88,9 +80,33 @@ namespace ConsoleApp15
                     }
 
                 } while (!words.EndOfStream);
-
             }
-            Console.WriteLine(minDistWord);
+
+            return minDistWord;
+        }
+
+        static void Main()
+        {
+            StreamReader f = new StreamReader("input.txt", Encoding.GetEncoding("windows-1251"));
+            
+            StreamWriter g = new StreamWriter("output.txt");
+            string s1 = f.ReadLine();//первая последовательность
+            string s2 = f.ReadToEnd();//вторая последовательность
+
+            string input = Console.ReadLine();
+
+            
+            string[] inputWords = input.Split(' ');
+
+
+            for (int i = 0; i < inputWords.Length; i++)
+            {
+                Console.Write(GetSimilarString(inputWords[i], new StreamReader("words.txt")) + " ");
+                
+            }
+
+
+            
             
         }
     }

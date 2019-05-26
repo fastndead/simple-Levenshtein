@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="711e7011-4a58-49bf-a91c-392cfe14ae0d" name="Default Changelist" comment="" />
+    <list default="true" id="711e7011-4a58-49bf-a91c-392cfe14ae0d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ConsoleApp33/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp33/Program.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,24 +15,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ConsoleApp33/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="313">
+              <caret line="98" column="51" lean-forward="true" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
               <folding>
-                <marker date="1558894061539" expanded="false" signature="6:109" ph="..." />
-                <marker date="1558894061539" expanded="true" signature="133:2650" ph="{...}" />
-                <marker date="1558894061539" expanded="true" signature="153:2648" ph="{...}" />
-                <marker date="1558894061539" expanded="true" signature="200:1554" ph="{...}" />
-                <marker date="1558894061539" expanded="true" signature="223:321" ph="/// Compute the distance between two strings. ... " />
-                <marker date="1558894061539" expanded="true" signature="379:1544" ph="{...}" />
-                <marker date="1558894061539" expanded="true" signature="566:632" ph="{...}" />
-                <marker date="1558894061539" expanded="true" signature="661:727" ph="{...}" />
-                <marker date="1558894061539" expanded="true" signature="809:845" ph="{...}" />
-                <marker date="1558894061539" expanded="true" signature="901:937" ph="{...}" />
-                <marker date="1558894061539" expanded="true" signature="1009:1472" ph="{...}" />
-                <marker date="1558894061539" expanded="true" signature="1105:1454" ph="{...}" />
-                <marker date="1558894061539" expanded="true" signature="1582:2642" ph="{...}" />
-                <marker date="1558894061539" expanded="true" signature="2072:2575" ph="{...}" />
-                <marker date="1558894061539" expanded="true" signature="2378:2513" ph="{...}" />
+                <marker date="1558896218507" expanded="false" signature="6:143" ph="..." />
+                <marker date="1558896218507" expanded="true" signature="167:3008" ph="{...}" />
+                <marker date="1558896218507" expanded="true" signature="187:3006" ph="{...}" />
+                <marker date="1558896218507" expanded="true" signature="234:1588" ph="{...}" />
+                <marker date="1558896218507" expanded="true" signature="257:355" ph="/// Compute the distance between two strings. ... " />
+                <marker date="1558896218507" expanded="true" signature="413:1578" ph="{...}" />
+                <marker date="1558896218507" expanded="true" signature="600:666" ph="{...}" />
+                <marker date="1558896218507" expanded="true" signature="695:761" ph="{...}" />
+                <marker date="1558896218507" expanded="true" signature="843:879" ph="{...}" />
+                <marker date="1558896218507" expanded="true" signature="935:971" ph="{...}" />
+                <marker date="1558896218507" expanded="true" signature="1043:1506" ph="{...}" />
+                <marker date="1558896218507" expanded="true" signature="1139:1488" ph="{...}" />
+                <marker date="1558896218507" expanded="true" signature="1662:2299" ph="{...}" />
+                <marker date="1558896218507" expanded="true" signature="1754:2256" ph="{...}" />
+                <marker date="1558896218507" expanded="true" signature="2060:2195" ph="{...}" />
+                <marker date="1558896218507" expanded="true" signature="2327:3000" ph="{...}" />
+                <marker date="1558896218507" expanded="true" signature="2812:2962" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -57,6 +61,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ConsoleApp33/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -67,11 +74,19 @@
       </list>
     </option>
   </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.ConsoleApp33/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="831" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -160,12 +175,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558876137401</updated>
-      <workItem from="1558876147818" duration="2813000" />
+      <workItem from="1558876147818" duration="3771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2813000" />
+    <option name="totallyTimeSpent" value="3771000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -181,14 +196,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32882273" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Performance Profiler" />
       <window_info anchor="bottom" id="Build" weight="0.32882273" />
@@ -238,24 +253,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ConsoleApp33/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="313">
+          <caret line="98" column="51" lean-forward="true" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
           <folding>
-            <marker date="1558894061539" expanded="false" signature="6:109" ph="..." />
-            <marker date="1558894061539" expanded="true" signature="133:2650" ph="{...}" />
-            <marker date="1558894061539" expanded="true" signature="153:2648" ph="{...}" />
-            <marker date="1558894061539" expanded="true" signature="200:1554" ph="{...}" />
-            <marker date="1558894061539" expanded="true" signature="223:321" ph="/// Compute the distance between two strings. ... " />
-            <marker date="1558894061539" expanded="true" signature="379:1544" ph="{...}" />
-            <marker date="1558894061539" expanded="true" signature="566:632" ph="{...}" />
-            <marker date="1558894061539" expanded="true" signature="661:727" ph="{...}" />
-            <marker date="1558894061539" expanded="true" signature="809:845" ph="{...}" />
-            <marker date="1558894061539" expanded="true" signature="901:937" ph="{...}" />
-            <marker date="1558894061539" expanded="true" signature="1009:1472" ph="{...}" />
-            <marker date="1558894061539" expanded="true" signature="1105:1454" ph="{...}" />
-            <marker date="1558894061539" expanded="true" signature="1582:2642" ph="{...}" />
-            <marker date="1558894061539" expanded="true" signature="2072:2575" ph="{...}" />
-            <marker date="1558894061539" expanded="true" signature="2378:2513" ph="{...}" />
+            <marker date="1558896218507" expanded="false" signature="6:143" ph="..." />
+            <marker date="1558896218507" expanded="true" signature="167:3008" ph="{...}" />
+            <marker date="1558896218507" expanded="true" signature="187:3006" ph="{...}" />
+            <marker date="1558896218507" expanded="true" signature="234:1588" ph="{...}" />
+            <marker date="1558896218507" expanded="true" signature="257:355" ph="/// Compute the distance between two strings. ... " />
+            <marker date="1558896218507" expanded="true" signature="413:1578" ph="{...}" />
+            <marker date="1558896218507" expanded="true" signature="600:666" ph="{...}" />
+            <marker date="1558896218507" expanded="true" signature="695:761" ph="{...}" />
+            <marker date="1558896218507" expanded="true" signature="843:879" ph="{...}" />
+            <marker date="1558896218507" expanded="true" signature="935:971" ph="{...}" />
+            <marker date="1558896218507" expanded="true" signature="1043:1506" ph="{...}" />
+            <marker date="1558896218507" expanded="true" signature="1139:1488" ph="{...}" />
+            <marker date="1558896218507" expanded="true" signature="1662:2299" ph="{...}" />
+            <marker date="1558896218507" expanded="true" signature="1754:2256" ph="{...}" />
+            <marker date="1558896218507" expanded="true" signature="2060:2195" ph="{...}" />
+            <marker date="1558896218507" expanded="true" signature="2327:3000" ph="{...}" />
+            <marker date="1558896218507" expanded="true" signature="2812:2962" ph="{...}" />
           </folding>
         </state>
       </provider>
